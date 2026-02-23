@@ -9,11 +9,13 @@ const app = express();
 
 app.use(express.json()); //allow us to accept json data in the body or client
 
+const PORT =process.env.PORT || 3000;
+
 //routes
 app.use("/api/products",productRoutes )
 
-  app.listen(3000, async () => {
+  app.listen(PORT, async () => {
   await connectDB();
-    console.log(`Server is running on http://localhost:3000`);
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
 
