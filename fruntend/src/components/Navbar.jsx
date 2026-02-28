@@ -8,6 +8,8 @@ import { PlusSquareIcon } from "@chakra-ui/icons";
 
 const Navbar = () => {
 const {colorMode, toggleColorMode} = useColorMode();
+// const { product } = useProductStore()
+
 
   return (
     <Container maxW={"1140px"} px={"4"} >

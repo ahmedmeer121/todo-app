@@ -6,3 +6,4 @@ library => chakra user for compunents
 npm i react-router-dom , for routes
 install ES7+React/Redux vscode extention ,for auto compleate boilerplate code inter rafce
 npm i react-icons , for icons
+npm i zustand , react library for global client state
